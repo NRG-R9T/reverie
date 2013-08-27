@@ -7396,13 +7396,15 @@ img.aligncenter {
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Marco\/Documents\/GitHub\/reverie\/scss\/style\.scss}line{font-family:\00003114}}
 figure.figure {
   margin: 0 auto;
-  display: inline-block;
+  display: table;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Marco\/Documents\/GitHub\/reverie\/scss\/style\.scss}line{font-family:\00003117}}
 figure.figure figcaption {
   padding: 8px 10px;
   color: gray;
   margin-bottom: 1.25em;
+  display: table-caption;
+  caption-side: bottom;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Marco\/Documents\/GitHub\/reverie\/scss\/style\.scss}line{font-family:\00003124}}
